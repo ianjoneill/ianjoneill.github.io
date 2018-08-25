@@ -3,6 +3,7 @@
 <head>
 <title>Ian O&#39;Neill | Software Engineer</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,13 +12,35 @@
 
   ga('create', 'UA-52247139-1', 'ianjamesoneill.com');
   ga('send', 'pageview');
-
 </script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .container {
+    padding: 1em;
+  }
+
+  .centred {
+    text-align: center;
+  }
+
+  @media (min-width: 575px) {
+    body {
+      width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+</style>
 </head>
 
 <body>
-<div itemscope itemtype="http://schema.org/Person">
-  <div style="text-align:center">
+<div itemscope itemtype="http://schema.org/Person" class="container">
+  <div class="centred">
     <h1 itemprop="name">Ian O&#39;Neill</h1>
     <h3 itemprop="jobTitle">Software Engineer</h3>
   </div>
@@ -27,8 +50,10 @@
     <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
       <span itemprop="addressLocality">Leighton Buzzard</span>,
       <span itemprop="addressRegion">Bedfordshire</span>,
-      <span itemprop="addressCountry">UK</span>
-    </span>.
+      <span itemprop="addressCountry">UK</span>.
+    </span>
+  </p>
+  <p>
     My main experience is with Java, but I also use HTML/JavaScript/TypeScript and C/C++/Objective-C.
   </p>
   <p>
@@ -44,9 +69,23 @@
     as a <span itemprop="award">Master of Engineering</span> in Computing.
   </p>
 
-  <p><a href="http://uk.linkedin.com/pub/ian-o-39-neill/98/1ba/454">My LinkedIn Profile</a></p>
-  <p><a href="https://github.com/ianjoneill">My GitHub Profile</a></p>
-  <p><a href="https://stackoverflow.com/users/4063157/ianjoneill">My Stack Overflow Profile</a></p>
+  <div>
+    <p>
+      <a href="http://uk.linkedin.com/pub/ian-o-39-neill/98/1ba/454" class="mdl-button mdl-js-button mdl-button--primary">
+        My LinkedIn Profile
+      </a>
+    </p>
+    <p>
+      <a href="https://github.com/ianjoneill" class="mdl-button mdl-js-button mdl-button--primary">
+        My GitHub Profile
+      </a>
+    </p>
+    <p>
+      <a href="https://stackoverflow.com/users/4063157/ianjoneill" class="mdl-button mdl-js-button mdl-button--primary">
+        My Stack Overflow Profile
+      </a>
+    </p>
+  </div>
 </div>
 </body>
 </html>
